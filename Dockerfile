@@ -7,12 +7,4 @@ RUN apt-get update && \
 
 ENV PATH /root/.local/bin:$PATH
 
-RUN adduser blabla
-
-USER blabla
-
-COPY . /home/blabla
-
-WORKDIR /home/blabla
-
 CMD /bin/bash
