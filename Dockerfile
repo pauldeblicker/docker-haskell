@@ -7,4 +7,6 @@ RUN apt-get update && \
 
 ENV PATH /root/.local/bin:$PATH
 
+WORKDIR /app
+
 CMD /bin/bash
